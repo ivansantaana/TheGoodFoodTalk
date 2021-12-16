@@ -117,105 +117,111 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <form action="#" method="post">
-                  <div class="row">
-                    <div class="col-md-4 form-group">
-                      <p>
-                        <input type="text" id="name" class="form-control" placeholder="Nombre y Apellidos *" required>
-                      </p>
-
-                      <p>
-                        <input type="tel" id="name" class="form-control" placeholder="Teléfono *" required>
-                      </p>
-
-                      <p>
-                        <input type="text" id="phone" class="form-control" placeholder="Email *" required>
-                      </p>
-
-                      <select name="menu">
-                        <option value="0">Sexo</option>
-                        <option value="1">Hombre</option>
-                        <option value="2">Mujer</option>
-                        <option value="3">Otro</option>
-                      </select>
-
-                      <select name="menu">
-                        <option value="0">Orientación sexual</option>
-                        <option value="1">Heterosexual</option>
-                        <option value="2">Homosexual</option>
-                        <option value="3">Bisexual</option>
-                        <option value="3">Otro</option>
-                      </select>
-
-                      <p>¿Qué buscas?<br>
-                        <input type="checkbox" id="cbox1" value="first_checkbox"> Amistad<br>
-                        <input type="checkbox" id="cbox2" value="second_checkbox"> Relación<br>
-                      </p>
-
-                      <p>Me gusta experimentar a la hora de cocinar<br>
-                        <input type="radio" name="cbox1" value="first_checkbox"> Sí, me gusta mezclar y crear nuevos platos<br>
-                        <input type="radio" name="cbox1" value="second_checkbox"> No, siempre sigo una receta<br>
-                        <input type="radio" name="cbox1" value="second_checkbox"> Sin respuesta<br>
-
-                      </p>
-
-                      <p>Siempre frecuento el mismo restaurante</br>
-                        <input type="radio" name="cbox2" value="first_checkbox"> Sí, más vale lo bueno conocido<br>
-                        <input type="radio" name="cbox2" value="second_checkbox"> No, prefiero probar sitios nuevos<br>
-                        <input type="radio" name="cbox2" value="second_checkbox"> Sin respuesta<br>
-                      </p>
-
-                      <p>Cuando voy a cenar a un restaurante</br>
-                        <input type="radio" name="cbox3" value="first_checkbox"> Me quedo hasta tarde en la sobremesa<br>
-                        <input type="radio" name="cbox3" value="second_checkbox"> Me voy temprano sintiendo un descenso de energía<br>
-                        <input type="radio" name="cbox3" value="second_checkbox"> Sin respuesta<br>
-                      </p>
-
-                      <p>Indique su nivel de compromiso:
-                        <input type="range" name="rango"
-                          min="0" max="5">
-                      </p>
-
-                      <p>¿Qué tipo de comida te gusta?<br>
-                        <input type="checkbox" id="cbox1" value="first_checkbox"> Vegetarian@<br>
-                        <input type="checkbox" id="cbox2" value="second_checkbox"> Vegan@<br>
-                        <input type="checkbox" id="cbox3" value="second_checkbox"> Rápida<br>
-                        <input type="checkbox" id="cbox4" value="second_checkbox"> Saludable<br>
-                        <input type="checkbox" id="cbox4" value="second_checkbox"> Sin preferencia<br>
-                      </p>
-
-                      <p>¿Qué prefieres comer?</br>
-                        <input type="checkbox" id="cbox1" value="first_checkbox"> Carne<br>
-                        <input type="checkbox" id="cbox2" value="second_checkbox"> Verdura<br>
-                        <input type="checkbox" id="cbox3" value="second_checkbox"> Pasta<br>
-                        <input type="checkbox" id="cbox4" value="second_checkbox"> Pescado<br>
-                        <input type="checkbox" id="cbox4" value="second_checkbox"> Arroz<br>
-                        <input type="text" class="form-control" placeholder="otro">
-                      </p>
-
-                      <p>
-                        <input type="text" id="name" class="form-control" placeholder="¿Cuál es tu plato favorito? *" required>
-                      </p>
-
-                      <p>¿Tienes alguna alergia? *</br>
-                        <input type="radio" name="cbox3" value="first_checkbox" required> Sí<br>
-                        <input type="radio" name="cbox3" value="second_checkbox"> No<br>
-                      </p>
-
-                      <p>
-                        <input type="text" id="name" class="form-control" placeholder="Si tienes algún tipo de alergia. ¿Cuál es?">
-                      </p>
-
-                      <textarea name="texto" rows="4" cols="40" 
-                      placeholder="Ayúdanos a conocerte más"></textarea>
-
-                    <p>
-                      <input type="submit" value="Enviar!" class="btn btn-primary">
-                      <input type="reset" value="Eliminar" class="btn btn-primary">
-                    </div>
+            <form action="formulario.html" method="post">
+              <div class="row">
+                <div class="col-md-4 form-group">
+                  <p>
+                    <input type="text" id="name" class="form-control" placeholder="Nombre y Apellidos *" required>
                   </p>
-                  
-                </form>
+
+                  <p>
+                    <input type="tel" id="phone" class="form-control" placeholder="Teléfono *" required>
+                  </p>
+
+                  <p>
+                    <input type="text" id="email" class="form-control" placeholder="Email *" required>
+                  </p>
+
+                  <select name="menu">
+                    <option value="0">Sexo</option>
+                    <option value="1">Hombre</option>
+                    <option value="2">Mujer</option>
+                    <option value="3">Otro</option>
+                  </select>
+
+                  <select name="menu">
+                    <option value="0">Orientación sexual</option>
+                    <option value="1">Heterosexual</option>
+                    <option value="2">Homosexual</option>
+                    <option value="3">Bisexual</option>
+                    <option value="3">Otro</option>
+                  </select>
+
+                  <p>¿Qué buscas?<br>
+                    <input type="checkbox" id="cbox1" value="first_checkbox"> Amistad<br>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"> Relación<br>
+                  </p>
+
+                  <p>Me gusta experimentar a la hora de cocinar<br>
+                    <input type="radio" name="cbox1" value="first_checkbox"> Sí, me gusta mezclar y crear nuevos platos<br>
+                    <input type="radio" name="cbox1" value="second_checkbox"> No, siempre sigo una receta<br>
+                    <input type="radio" name="cbox1" value="second_checkbox"> Sin respuesta<br>
+                  </p>
+
+                  <p>Siempre frecuento el mismo restaurante</br>
+                    <input type="radio" name="cbox2" value="first_checkbox"> Sí, más vale lo bueno conocido<br>
+                    <input type="radio" name="cbox2" value="second_checkbox"> No, prefiero probar sitios nuevos<br>
+                    <input type="radio" name="cbox2" value="second_checkbox"> Sin respuesta<br>
+                  </p>
+
+                  <p>Cuando voy a cenar a un restaurante</br>
+                    <input type="radio" name="cbox3" value="first_checkbox"> Me quedo hasta tarde en la sobremesa<br>
+                    <input type="radio" name="cbox3" value="second_checkbox"> Me voy temprano sintiendo un descenso de energía<br>
+                    <input type="radio" name="cbox3" value="second_checkbox"> Sin respuesta<br>
+                  </p>
+
+                  <p>Indique su nivel de compromiso:
+                    <input 
+                      type="range" 
+                      name="rango"
+                      min="0" 
+                      max="5">
+                  </p>
+
+                  <p>¿Qué tipo de comida te gusta?<br>
+                    <input type="checkbox" id="cbox1" value="first_checkbox"> Vegetarian@<br>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"> Vegan@<br>
+                    <input type="checkbox" id="cbox3" value="second_checkbox"> Rápida<br>
+                    <input type="checkbox" id="cbox4" value="second_checkbox"> Saludable<br>
+                    <input type="checkbox" id="cbox4" value="second_checkbox"> Sin preferencia<br>
+                  </p>
+
+                  <p>¿Qué prefieres comer?</br>
+                    <input type="checkbox" id="cbox1" value="first_checkbox"> Carne<br>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"> Verdura<br>
+                    <input type="checkbox" id="cbox3" value="second_checkbox"> Pasta<br>
+                    <input type="checkbox" id="cbox4" value="second_checkbox"> Pescado<br>
+                    <input type="checkbox" id="cbox4" value="second_checkbox"> Arroz<br>
+                    <input type="text" class="form-control" placeholder="otro">
+                  </p>
+
+                  <p>
+                    <input type="text" id="name" class="form-control" placeholder="¿Cuál es tu plato favorito? *" required>
+                  </p>
+
+                  <p>¿Tienes alguna alergia? *</br>
+                    <input type="radio" name="cbox3" value="first_checkbox" > Sí<br>
+                    <input type="radio" name="cbox3" value="second_checkbox"> No<br>
+                  </p>
+
+                  <p>
+                    <input type="text" id="name" class="form-control" placeholder="Si tienes algún tipo de alergia. ¿Cuál es?">
+                  </p>
+
+                  <textarea 
+                    name="texto" 
+                    rows="4" 
+                    cols="40" 
+                    placeholder="Ayúdanos a conocerte más">
+                  </textarea>
+
+                  <p>
+                    <input type="submit" value="Enviar!" onclick="javascript:alert('Gracias por enviar tu respuesta');" class="btn btn-primary">
+                    <input type="reset" value="Eliminar" class="btn btn-primary">
+                  </p>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
